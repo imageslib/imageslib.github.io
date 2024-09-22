@@ -1,7 +1,7 @@
 {
-  "name": "www.tobetter.org.cn",
+  "name": "imageslib.github.io",
   "version": "1.0.7",
-  "description": "https://www.tobetter.org.cn",
+  "description": "https://imageslib.github.io",
   "main": "src/index.ts",
   "exports": {
     ".": "./src/index.ts",
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MShineRay/www.tobetter.org.cn.git"
+    "url": "git+https://github.com/MShineRay/imageslib.github.io.git"
   },
   "author": "MSR",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MShineRay/www.tobetter.org.cn/issues"
+    "url": "https://github.com/MShineRay/mshineray.github.io/issues"
   },
   "scripts": {
     "dev": "vitepress dev src --port 8080",
@@ -29,7 +29,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.4",
+    "vitepress": "1.1.4",
     "vue": "^3.2.37"
   }
 }
