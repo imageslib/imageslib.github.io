@@ -23,7 +23,7 @@ const imgs = import.meta.glob(
      :key="img"
       style="margin-bottom: 20px; padding: 20px"
     >
-      <legend v-if="img.indexOf('data:image/')!==-1">
+      <legend v-if="img.indexOf('data:image/') === -1">
         {{img.replace('/public', 'https://imageslib.github.io')}}
       </legend>
       <img :src="img"/>
