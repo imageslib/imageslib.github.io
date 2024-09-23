@@ -2,6 +2,7 @@
 // if(typeof location !== 'undefined'){
 //   location.replace('https://www.tobetter.org.cn')
 // }
+
 const imgs = import.meta.glob(
     [
       '/public/img/**/*.png',
@@ -22,7 +23,7 @@ const imgs = import.meta.glob(
      :key="img"
       style="margin-bottom: 20px; padding: 20px"
     >
-      <legend>
+      <legend v-if="img.indexOf('data:image/')!==-1">
         {{img.replace('/public', 'https://imageslib.github.io')}}
       </legend>
       <img :src="img"/>
